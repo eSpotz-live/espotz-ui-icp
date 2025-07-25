@@ -71,11 +71,3 @@ espotz-ui-icp/
  dfx deploy --network ic
 ```
 
-
-
-🔗 Useful Commands
-Command	Purpose
-dfx identity list	List all identities
-dfx identity use <name>	Switch identity
-dfx canister status frontend	Check frontend canister status
-dfx canister call frontend get	Get frontend canister URL (local)
