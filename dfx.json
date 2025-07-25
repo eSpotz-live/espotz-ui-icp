@@ -1,39 +1,13 @@
 {
   "canisters": {
-    "espotz-ui-icp-backend": {
-      "build": "npx azle espotz-ui-icp-backend",
-      "candid": "src/espotz-ui-icp-backend/espotz-ui-icp-backend.did",
-      "gzip": true,
-      "main": "src/espotz-ui-icp-backend/src/index.ts",
-      "tech_stack": {
-        "cdk": {
-          "azle": {}
-        },
-        "language": {
-          "javascript": {},
-          "typescript": {}
-        }
-      },
-      "type": "custom",
-      "wasm": ".azle/espotz-ui-icp-backend/espotz-ui-icp-backend.wasm"
-    },
-    "espotz-ui-icp-frontend": {
-      "dependencies": [
-        "espotz-ui-icp-backend"
-      ],
-      "source": [
-        "src/espotz-ui-icp-frontend/dist"
-      ],
+    "frontend": {
       "type": "assets",
-      "workspace": "espotz-ui-icp-frontend"
+      "source": [
+        "frontend"
+      ],
+      "frontend": {
+        "entrypoint": "frontend/index.html"
+      }
     }
-  },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
-  },
-  "output_env_file": ".env",
-  "version": 1
+  }
 }

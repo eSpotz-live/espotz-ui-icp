@@ -1,19 +1,8 @@
 {
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.0.0"
-  },
   "name": "espotz-ui-icp",
+  "version": "1.0.0",
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
-    "prebuild": "npm run prebuild --workspaces --if-present",
-    "pretest": "npm run prebuild --workspaces --if-present",
-    "start": "npm start --workspaces --if-present",
-    "test": "npm test --workspaces --if-present"
+    "build": "echo 'Nothing to build, using static assets.'"
   },
-  "type": "module",
-  "workspaces": [
-    "src/espotz-ui-icp-backend",
-    "src/espotz-ui-icp-frontend"
-  ]
+  "type": "module"
 }
