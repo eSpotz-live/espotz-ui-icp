@@ -1,6 +1,13 @@
 # 📦 espotz-ui-icp
 
-This project hosts a static frontend built for the Internet Computer (IC). It uses no build framework (e.g., React or Vite) and serves pure HTML/CSS/JS assets via the DFINITY dfx canister.
+The esports industry, valued at $263 billion and supported by over 3.3 billion gamers worldwide, faces significant challenges, with the majority of players underserved by delayed payouts and opaque systems.
+
+**Currently, only 1% of Tier 1 players capture the majority of rewards from top brands. Espotz is dedicated to serving the next 99% of the market, focusing on over 600 million players globally who will shape the future of competitive gaming and global entertainment.**
+
+We are developing an infrastructure layer that empowers players, community managers, operators, and event organizers to host competitions, validate results using AI, distribute prize pools, and monetize through betting and staking within a seamless and transparent ecosystem. By leveraging Internet Capital Markets (ICM) and prediction markets on Web3, we create unique engagement experiences between esports influencers and their fans. 
+
+**Our mission is to unlock the full potential of the esports market, ensuring that all players have the opportunity to thrive.**
+
 
 ---
 
